@@ -23,4 +23,4 @@ Examples:
  
 2. ```$ echo '{"uid":1,"email":"user@gmail.com","address":{"city":"New-York","country":"US"}}' | jsonf -q 'value["address"]["country"]'```
 
-```"US"```
+"US"
