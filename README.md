@@ -7,8 +7,8 @@ Install:
 Usage:
 
 ```
-$ jsonf -h
 Usage of jsonf:
+  -c=true: colorize output
   -d=false: debug output to stderr
   -f=true: format output json to stdout
   -q="": json query
