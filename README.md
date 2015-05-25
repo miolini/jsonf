@@ -18,7 +18,8 @@ Usage of jsonf:
 
 Examples:
 
-1. ```
+1. 
+```
 $ echo '{"uid":1,"email":"user@gmail.com","address":{"city":"New-York","country":"US"}}' | jsonf
 ```
  
