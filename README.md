@@ -18,7 +18,11 @@ Usage of jsonf:
 
 Examples:
 
-1. ```$ echo '{"uid":1,"email":"user@gmail.com","address":{"city":"New-York","country":"US"}}' | jsonf```
+1. 
+```
+$ echo '{"uid":1,"email":"user@gmail.com","address":{"city":"New-York","country":"US"}}' | jsonf
+```
+ 
 ![ScreenShot](https://cdn.rawgit.com/miolini/jsonf/master/output.png "Screenshot")
  
 2. 
