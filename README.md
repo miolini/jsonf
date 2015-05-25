@@ -6,13 +6,15 @@ Install:
 
 Usage:
 
-```$ jsonf -h
+```
+$ jsonf -h
 Usage of jsonf:
   -d=false: debug output to stderr
   -f=true: format output json to stdout
   -q="": json query
   -s=true: syntax hightlight
-  -v=false: verbose output to stderr```
+  -v=false: verbose output to stderr
+```
 
 Examples:
 
