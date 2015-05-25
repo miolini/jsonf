@@ -22,7 +22,7 @@ Examples:
 $ echo '{"uid":1,"email":"user@gmail.com","address":{"city":"New-York","country":"US"}}' | jsonf
 ```
  
-![Output](https://cdn.rawgit.com/miolini/jsonf/master/output1.png "Output")
+![Output](https://cdn.rawgit.com/miolini/jsonf/master/output.png "Output")
 
  
 ```
