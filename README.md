@@ -33,3 +33,21 @@ $ echo '{"uid":1,"email":"user@gmail.com","address":{"city":"New-York","country"
 ```
 "US"
 ```
+
+## Using from another Golang program
+
+```go
+import (
+  ...
+  "github.com/miolini/jsonf/jsonflib"
+  ...
+)
+...
+    jsonRaw, err := jsonflib.Highlight(
+      jsonRaw,
+      jsonflib.HighlightFlags{Colorize: true, Verbose: false, Debug: false},
+    )
+    if err != nil {
+      return err
+    }
+```
